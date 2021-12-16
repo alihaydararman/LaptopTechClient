@@ -1,0 +1,64 @@
+.login-container {
+  height: 100vh;
+  background: radial-gradient(rgba(130, 128, 248, 0.7), rgba(23, 75, 45, 0.8)),
+    url("../../img/loginbg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.login-container form {
+  width: 40%;
+  background-color: rgb(56, 64, 87);
+  padding: 50px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.login-container input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 50px 10px;
+}
+.login-container a {
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.login-container input[type="submit"] {
+  width: 100px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  background-color: #157715;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #16502f;
+}
+
+.login-container button {
+  border: 0;
+  width: 60%;
+  margin: 0 auto;
+  padding: 3px 8px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.login-container button:hover {
+  background-color: #2461c2;
+  color: white;
+}
+
+/* responsive */
+@media only screen and (max-width: 572px) {
+  .login-container form {
+    width: 95%;
+  }
+}

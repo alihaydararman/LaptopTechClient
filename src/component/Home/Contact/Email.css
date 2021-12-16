@@ -1,0 +1,13 @@
+.login{
+    background-image: url(https://us.123rf.com/450wm/niroworld/niroworld1506/niroworld150600041/41504674-web-contact-us-and-internet-connection-concept-with-email-mobile-phone-and-at-icons-and-symbol-on-cu.jpg?ver=6);
+    height: 400px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: wheat;
+    border-radius: 50px;
+}

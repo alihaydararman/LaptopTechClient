@@ -1,0 +1,10 @@
+form {
+  width: 50%;
+}
+
+@media only screen and (max-width: 560px) {
+  form {
+    width: 100%;
+    padding: 0 10px;
+  }
+}

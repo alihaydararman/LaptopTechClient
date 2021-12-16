@@ -1,0 +1,55 @@
+/* Navbar design */
+.full-nav {
+  background-color: powderblue;
+  padding: 10px 0;
+}
+
+.dropdown-menu {
+  width: 200px;
+}
+.navbar-container {
+  padding: 10px 0;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.navbar-container a {
+  margin: 5px 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: rgb(33, 7, 66);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.navbar-container a:hover {
+  background-color: rgb(34, 122, 136);
+  color: white;
+}
+
+.logOut-btn {
+  background-color: rgb(131, 20, 10);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.longin-btn {
+  background-color: rgb(45, 48, 199);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: rgb(236, 221, 221);
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
