@@ -39,6 +39,7 @@ const Navigation = () => {
             <HashLink to="/home#products">Products</HashLink>
             <HashLink to="/explore">Explore</HashLink>
             <HashLink to="/home#contact">Contact</HashLink>
+            <HashLink to="/offerProdicts">Offer Products</HashLink>
 
             {user.email && <HashLink to="/dashboard">Dashbord</HashLink>}
           </ul>

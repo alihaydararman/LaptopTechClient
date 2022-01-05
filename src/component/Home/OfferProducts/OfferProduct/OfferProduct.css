@@ -1,0 +1,8 @@
+/* rating star */
+.empty {
+    color: rgb(121, 47, 47);
+  }
+  .full {
+    color: #ecb406;
+  }
+  

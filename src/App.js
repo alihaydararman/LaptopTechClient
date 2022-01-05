@@ -4,6 +4,7 @@ import Dashbord from "./component/Dashbord/Dashboard/Dashbord";
 import Error from "./component/Error/Error";
 import Explore from "./component/Explore/Explore";
 import Home from "./component/Home/Home/Home";
+import OfferProducts from "./component/Home/OfferProducts/OfferProducts/OfferProducts";
 import Login from "./component/Login/Login";
 import Order from "./component/Order/Order";
 import PrivetRoute from "./component/PrivetRoute/PrivetRoute";
@@ -24,6 +25,9 @@ function App() {
 
           <Route exact path="/explore">
             <Explore></Explore>
+          </Route>
+          <Route exact path="/offerProdicts">
+            <OfferProducts></OfferProducts>
           </Route>
 
           <Route path="/login">
