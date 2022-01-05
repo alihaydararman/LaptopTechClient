@@ -3,6 +3,7 @@ import AuthProvider from "./component/Context/AuthProvider";
 import Dashbord from "./component/Dashbord/Dashboard/Dashbord";
 import Error from "./component/Error/Error";
 import Explore from "./component/Explore/Explore";
+import AboutUs from "./component/Home/AboutUs/AboutUs";
 import Home from "./component/Home/Home/Home";
 import OfferProducts from "./component/Home/OfferProducts/OfferProducts/OfferProducts";
 import Login from "./component/Login/Login";
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route exact path="/offerProdicts">
               <OfferProducts></OfferProducts>
+            </Route>
+            <Route exact path="/aboutus">
+              <AboutUs></AboutUs>
             </Route>
 
             <Route path="/login">
