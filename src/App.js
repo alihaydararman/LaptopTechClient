@@ -12,44 +12,46 @@ import Register from "./component/Register/Register";
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
+    <div className="container">
+      <AuthProvider>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
 
-          <Route exact path="/home">
-            <Home></Home>
-          </Route>
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
 
-          <Route exact path="/explore">
-            <Explore></Explore>
-          </Route>
-          <Route exact path="/offerProdicts">
-            <OfferProducts></OfferProducts>
-          </Route>
+            <Route exact path="/explore">
+              <Explore></Explore>
+            </Route>
+            <Route exact path="/offerProdicts">
+              <OfferProducts></OfferProducts>
+            </Route>
 
-          <Route path="/login">
-            <Login> </Login>
-          </Route>
-          <Route path="/register/:userLocation">
-            <Register> </Register>
-          </Route>
-          <PrivetRoute path="/dashboard">
-            <Dashbord></Dashbord>
-          </PrivetRoute>
+            <Route path="/login">
+              <Login> </Login>
+            </Route>
+            <Route path="/register/:userLocation">
+              <Register> </Register>
+            </Route>
+            <PrivetRoute path="/dashboard">
+              <Dashbord></Dashbord>
+            </PrivetRoute>
 
-          <PrivetRoute path="/order/:id">
-            <Order></Order>
-          </PrivetRoute>
+            <PrivetRoute path="/order/:id">
+              <Order></Order>
+            </PrivetRoute>
 
-          <Route path="*">
-            <Error></Error>
-          </Route>
-        </Switch>
-      </Router>
-    </AuthProvider>
+            <Route path="*">
+              <Error></Error>
+            </Route>
+          </Switch>
+        </Router>
+      </AuthProvider>
+    </div>
   );
 }
 
